@@ -3,7 +3,7 @@
 
 A tool used to copy example files out of `addons/` folders into the destination of the user's choosing, cleaning up UIDs in the process.
 
-See the setup wizard in *[Maaack's Game Template](https://github.com/Maaack/Godot-Game-Template)* for an example of how it is used.
+See the setup wizard in *[SadSha Game Template](https://github.com/fnjlabs-arch/Godot-Game-Template)* for an example of how it is used.
 
 ## Objective
 

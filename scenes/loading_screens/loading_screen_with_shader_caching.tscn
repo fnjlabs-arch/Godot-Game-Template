@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cya5d0fhtogty"]
 
-[ext_resource type="PackedScene" path="res://addons/maaacks_scene_loader/base/nodes/loading_screen/loading_screen.tscn" id="1_y06jo"]
+[ext_resource type="PackedScene" path="res://addons/sadsha_scene_loader/base/nodes/loading_screen/loading_screen.tscn" id="1_y06jo"]
 [ext_resource type="Script" path="res://scenes/loading_screens/loading_screen_with_shader_caching.gd" id="2_rix7u"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_klnwy"]

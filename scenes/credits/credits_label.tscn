@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://jljc733whdom"]
 
-[ext_resource type="Script" path="res://addons/maaacks_game_template/base/nodes/labels/credits_label.gd" id="1_yhcaj"]
+[ext_resource type="Script" path="res://addons/sadsha_game_template/base/nodes/labels/credits_label.gd" id="1_yhcaj"]
 
 [node name="CreditsLabel" type="RichTextLabel" unique_id=525943618]
 anchors_preset = 15
@@ -13,10 +13,10 @@ size_flags_vertical = 5
 bbcode_enabled = true
 text = "[font_size=48]Collaborators[/font_size]
 
-[font_size=32]Godot Game Template[/font_size]
+[font_size=32]SadSha Game Template[/font_size]
 [img=80]res:///assets/plugin_logo/logo.png[/img]  
-Author: [url=https://github.com/Maaack/Godot-Game-Template/graphs/contributors]Marek Belski and contributors[/url]  
-Source: [url=https://github.com/Maaack/Godot-Game-Template]github: Godot-Game-Template[/url]  
+Author: [url=https://github.com/fnjlabs-arch/Godot-Game-Template/graphs/contributors]Marek Belski and contributors[/url]  
+Source: [url=https://github.com/fnjlabs-arch/Godot-Game-Template]github: Godot-Game-Template[/url]  
 License: [url=LICENSE.txt]MIT License[/url]  
 
 [font_size=48]Sourced[/font_size]

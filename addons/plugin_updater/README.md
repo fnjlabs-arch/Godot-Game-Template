@@ -73,12 +73,12 @@ The `api_client.tscn` and `download_and_extract.tscn` nodes make external reques
 
 Here is an example of the request to check for updates for *Plugin Updater*:
 ```http
-GET https://api.github.com/repos/Maaack/Godot-Plugin-Updater/releases
+GET https://api.github.com/repos/SadSha/Godot-Plugin-Updater/releases
 Content-Type: application/json
 ```
 Here is an example of the request to update to the latest release of *Plugin Updater*:
 ```http
-GET https://api.github.com/repos/Maaack/Godot-Plugin-Updater/zipball/v0.5.0
+GET https://api.github.com/repos/SadSha/Godot-Plugin-Updater/zipball/v0.5.0
 ```
 
 ### Testing

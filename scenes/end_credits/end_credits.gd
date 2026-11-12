@@ -12,11 +12,11 @@ extends "res://scenes/credits/scrolling_credits.gd"
 @onready var exit_button = %ExitButton
 @onready var menu_button = %MenuButton
 @onready var init_mouse_filter : MouseFilter = mouse_filter
-## If Maaack's Scene Loader is installed, then it will be used to change scenes.
+## If SadSha Scene Loader is installed, then it will be used to change scenes.
 @onready var scene_loader_node = get_tree().root.get_node_or_null(^"SceneLoader")
 
 func get_main_menu_scene_path() -> String:
-	return MaaacksGameTemplate.get_main_menu_path(main_menu_scene_path)
+	return SadShaGameTemplate.get_main_menu_path(main_menu_scene_path)
 
 func _end_reached() -> void:
 	end_message_panel.show()

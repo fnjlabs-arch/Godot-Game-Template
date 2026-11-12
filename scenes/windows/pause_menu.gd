@@ -12,14 +12,14 @@ extends PopupWindowPanel
 @onready var options_button = %OptionsButton
 @onready var main_menu_button = %MainMenuButton
 @onready var exit_button = %ExitButton
-## If Maaack's Scene Loader is installed, then it will be used to change scenes.
+## If SadSha Scene Loader is installed, then it will be used to change scenes.
 @onready var scene_loader_node = get_tree().root.get_node_or_null(^"SceneLoader")
 
 var open_window : Node
 var restarting : bool = false
 
 func get_main_menu_scene_path() -> String:
-	return MaaacksGameTemplate.get_main_menu_path(main_menu_scene_path)
+	return SadShaGameTemplate.get_main_menu_path(main_menu_scene_path)
 
 func close_window() -> void:
 	if open_window != null:
